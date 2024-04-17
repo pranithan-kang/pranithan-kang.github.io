@@ -9,18 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@iconify-json/akar-icons": "^1.1.24",
+    "@iconify-json/fa6-brands": "^1.1.19",
+    "@iconify-json/healthicons": "^1.1.17",
+    "@iconify-json/simple-icons": "^1.1.99",
+    "@iconify/tailwind": "^0.1.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "typescript": "^5"
   }
 }
