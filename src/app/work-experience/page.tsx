@@ -171,7 +171,7 @@ export default function WorkingExperience() {
                     This project is the system to manage the personal health
                     data among the cooperation of the hospital and the patient.
                     The benefit of this system is to satisfy the doctors who
-                    want to see the patient's health data from the other
+                    want to see the patient&apos;s health data from the other
                     hospital.
                   </p>
 
