@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function WorkingExperience() {
   return (
     <>
@@ -25,7 +27,11 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">E-GAT LandAIMS</h4>
               <div className="flex items-center space-x-4">
-                <img className="w-[100px]" src="./company-logo/egat.png" />
+                <Image
+                  className="w-[100px]"
+                  src="./company-logo/egat.png"
+                  alt="egat-logo"
+                />
                 <div className="space-y-2">
                   <p>
                     This project is the system to manage the compensation
@@ -71,7 +77,11 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">Taejai.com</h4>
               <div className="flex items-center space-x-4">
-                <img className="w-[100px]" src="./company-logo/taejai.svg" />
+                <Image
+                  className="w-[100px]"
+                  src="./company-logo/taejai.svg"
+                  alt="taejai-logo"
+                />
                 <div className="space-y-2">
                   <p>
                     <a href="www.taejai.com" target="_blank">
@@ -151,9 +161,10 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">Healthlink</h4>
               <div className="flex items-center space-x-4">
-                <img
+                <Image
                   className="w-[100px]"
                   src="./company-logo/healthlink.png"
+                  alt="healthlink-logo"
                 />
                 <div className="space-y-2">
                   <p>
@@ -236,7 +247,11 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">PG (Bangkok Airways), AD/ID Project</h4>
               <div className="flex items-center space-x-4">
-                <img className="w-[100px]" src="./company-logo/pg.svg" />
+                <Image
+                  className="w-[100px]"
+                  src="./company-logo/pg.svg"
+                  alt="pg-logo"
+                />
                 <div className="space-y-2">
                   <p>
                     In this project, I learned about Cordys System which is the
@@ -266,7 +281,11 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">SCG (Siam Cement Group), V Project</h4>
               <div className="flex items-center space-x-4">
-                <img className="w-[100px]" src="./company-logo/scg.png" />
+                <Image
+                  className="w-[100px]"
+                  src="./company-logo/scg.png"
+                  alt="scg-logo"
+                />
                 <div className="space-y-2">
                   <p>
                     This project is the solution named Q2O, Quotation to Order.
@@ -307,9 +326,10 @@ export default function WorkingExperience() {
                 Thailand Post, Asset Management Project
               </h4>
               <div className="flex items-center space-x-4">
-                <img
+                <Image
                   className="w-[100px]"
                   src="./company-logo/thailand-post.png"
+                  alt="thailand-post-logo"
                 />
                 <div className="space-y-2">
                   <p>
@@ -365,9 +385,10 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">RBHDashboard</h4>
               <div className="flex items-center space-x-4">
-                <img
+                <Image
                   className="w-[100px] h-[100px]"
                   src="./company-logo/dtac.svg"
+                  alt="dtac-logo"
                 />
                 <div className="space-y-2">
                   <p>
@@ -417,7 +438,7 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">REFLEX</h4>
               <div className="flex items-center space-x-4">
-                <img className="w-[100px]" src="./company-logo/chevron.svg" />
+                <Image className="w-[100px]" src="./company-logo/chevron.svg" alt="chevron-logo"/>
                 <div className="space-y-2">
                   <p>
                     The client of this job was Chevron (Thailand). This project
@@ -475,7 +496,11 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">Share Builder Plan (SBP)</h4>
               <div className="flex items-center space-x-4">
-                <img className="w-[100px]" src="./company-logo/phillip.jpeg" />
+                <Image
+                  className="w-[100px]"
+                  src="./company-logo/phillip.jpeg"
+                  alt="phillip-logo"
+                />
                 <div className="space-y-2">
                   <p>
                     For this job, I was outsourced to be Developer at Phillip
@@ -527,7 +552,7 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">Dec 2013 - Apr 2015</p>
           </div>
           <div className="flex items-center space-x-4">
-            <img className="w-[100px]" src="./company-logo/nagase.jpeg" />
+            <Image className="w-[100px]" src="./company-logo/nagase.jpeg" alt="nagase-logo" />
             <div className="space-y-2">
               <p>
                 I worked as a permanent employee in this company. There are
@@ -568,7 +593,7 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">May 2013 - Nov 2013</p>
           </div>
           <div className="flex items-center space-x-4">
-            <img className="w-[100px]" src="./company-logo/applicad.jpeg" />
+            <Image className="w-[100px]" src="./company-logo/applicad.jpeg" alt="applicad-logo" />
             <div className="space-y-2">
               <p>
                 In this company, I started my new career path as a programmer. I
@@ -605,7 +630,7 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">Jan 2012 - Apr 2013</p>
           </div>
           <div className="flex items-center space-x-4">
-            <img className="w-[100px]" src="./company-logo/sim.jpeg" />
+            <Image className="w-[100px]" src="./company-logo/sim.jpeg" alt="sim-logo" />
             <div className="space-y-2">
               <p>
                 In this company, I began to work as CNC Machine Operator. My
@@ -637,7 +662,11 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">??? - Dec 2011</p>
           </div>
           <div className="flex items-center space-x-4">
-            <img className="w-[100px]" src="./company-logo/samui-aksorn.jpeg" />
+            <Image
+              className="w-[100px]"
+              src="./company-logo/samui-aksorn.jpeg"
+              alt="samui-aksorn-logo"
+            />
             <div className="space-y-2">
               <p>TODO: write about this JD</p>
             </div>
@@ -670,7 +699,11 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">??? - ???</p>
           </div>
           <div className="flex items-center space-x-4">
-            <img className="w-[100px]" src="./company-logo/creation-bijoux.jpeg" />
+            <Image
+              className="w-[100px]"
+              src="./company-logo/creation-bijoux.jpeg"
+              alt="creation-bijoux-logo"
+            />
             <div className="space-y-2">
               <p>TODO: write about this JD</p>
             </div>
@@ -687,7 +720,11 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">??? - ???</p>
           </div>
           <div className="flex items-center space-x-4">
-            <img className="w-[100px]" src="./company-logo/grand-watergate-hotel.jpeg" />
+            <Image
+              className="w-[100px]"
+              src="./company-logo/grand-watergate-hotel.jpeg"
+              alt="grand-watergate-hotel-logo"
+            />
             <div className="space-y-2">
               <p>
                 This is the first place that I am working as a full-time
