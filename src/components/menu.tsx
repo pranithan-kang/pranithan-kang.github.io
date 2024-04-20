@@ -1,6 +1,6 @@
 export function Menu() {
   return (
-    <nav className="m-2">
+    <nav className="p-2 border-b-[1px] border-[#19527C]">
       <ul className="flex space-x-4">
         <li>
           <a href="/work-experience">Working Experience</a>
