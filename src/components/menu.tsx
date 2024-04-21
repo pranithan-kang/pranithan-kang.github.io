@@ -3,6 +3,9 @@ export function Menu() {
     <nav className="p-2 border-b-[1px] border-[#19527C]">
       <ul className="flex space-x-4">
         <li>
+          <a href="/about">About Me</a>
+        </li>
+        <li>
           <a href="/work-experience">Working Experience</a>
         </li>
         <li>
@@ -16,9 +19,6 @@ export function Menu() {
         </li>
         <li>
           <a href="/certificate">Interesting Activities</a>
-        </li>
-        <li>
-          <a href="/about">About Me</a>
         </li>
       </ul>
     </nav>
