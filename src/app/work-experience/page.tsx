@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function WorkingExperience() {
   return (
     <>
@@ -27,9 +25,9 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">E-GAT LandAIMS</h4>
               <div className="flex items-center space-x-4">
-                <Image
+                <img
                   className="w-[100px]"
-                  src="./company-logo/egat.png"
+                  src="/company-logo/egat.png"
                   alt="egat-logo"
                 />
                 <div className="space-y-2">
@@ -77,9 +75,9 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">Taejai.com</h4>
               <div className="flex items-center space-x-4">
-                <Image
+                <img
                   className="w-[100px]"
-                  src="./company-logo/taejai.svg"
+                  src="/company-logo/taejai.svg"
                   alt="taejai-logo"
                 />
                 <div className="space-y-2">
@@ -161,9 +159,9 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">Healthlink</h4>
               <div className="flex items-center space-x-4">
-                <Image
+                <img
                   className="w-[100px]"
-                  src="./company-logo/healthlink.png"
+                  src="/company-logo/healthlink.png"
                   alt="healthlink-logo"
                 />
                 <div className="space-y-2">
@@ -247,11 +245,7 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">PG (Bangkok Airways), AD/ID Project</h4>
               <div className="flex items-center space-x-4">
-                <Image
-                  className="w-[100px]"
-                  src="./company-logo/pg.svg"
-                  alt="pg-logo"
-                />
+                <img className="w-[100px]" src="/company-logo/pg.svg" alt="pg-logo" />
                 <div className="space-y-2">
                   <p>
                     In this project, I learned about Cordys System which is the
@@ -281,11 +275,7 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">SCG (Siam Cement Group), V Project</h4>
               <div className="flex items-center space-x-4">
-                <Image
-                  className="w-[100px]"
-                  src="./company-logo/scg.png"
-                  alt="scg-logo"
-                />
+                <img className="w-[100px]" src="/company-logo/scg.png" alt="scg-logo" />
                 <div className="space-y-2">
                   <p>
                     This project is the solution named Q2O, Quotation to Order.
@@ -326,9 +316,9 @@ export default function WorkingExperience() {
                 Thailand Post, Asset Management Project
               </h4>
               <div className="flex items-center space-x-4">
-                <Image
+                <img
                   className="w-[100px]"
-                  src="./company-logo/thailand-post.png"
+                  src="/company-logo/thailand-post.png"
                   alt="thailand-post-logo"
                 />
                 <div className="space-y-2">
@@ -385,9 +375,9 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">RBHDashboard</h4>
               <div className="flex items-center space-x-4">
-                <Image
+                <img
                   className="w-[100px] h-[100px]"
-                  src="./company-logo/dtac.svg"
+                  src="/company-logo/dtac.svg"
                   alt="dtac-logo"
                 />
                 <div className="space-y-2">
@@ -438,7 +428,11 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">REFLEX</h4>
               <div className="flex items-center space-x-4">
-                <Image className="w-[100px]" src="./company-logo/chevron.svg" alt="chevron-logo"/>
+                <img
+                  className="w-[100px]"
+                  src="/company-logo/chevron.svg"
+                  alt="chevron-logo"
+                />
                 <div className="space-y-2">
                   <p>
                     The client of this job was Chevron (Thailand). This project
@@ -496,9 +490,9 @@ export default function WorkingExperience() {
             <div>
               <h4 className="text-xl">Share Builder Plan (SBP)</h4>
               <div className="flex items-center space-x-4">
-                <Image
+                <img
                   className="w-[100px]"
-                  src="./company-logo/phillip.jpeg"
+                  src="/company-logo/phillip.jpeg"
                   alt="phillip-logo"
                 />
                 <div className="space-y-2">
@@ -552,7 +546,11 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">Dec 2013 - Apr 2015</p>
           </div>
           <div className="flex items-center space-x-4">
-            <Image className="w-[100px]" src="./company-logo/nagase.jpeg" alt="nagase-logo" />
+            <img
+              className="w-[100px]"
+              src="/company-logo/nagase.jpeg"
+              alt="nagase-logo"
+            />
             <div className="space-y-2">
               <p>
                 I worked as a permanent employee in this company. There are
@@ -593,7 +591,11 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">May 2013 - Nov 2013</p>
           </div>
           <div className="flex items-center space-x-4">
-            <Image className="w-[100px]" src="./company-logo/applicad.jpeg" alt="applicad-logo" />
+            <img
+              className="w-[100px]"
+              src="/company-logo/applicad.jpeg"
+              alt="applicad-logo"
+            />
             <div className="space-y-2">
               <p>
                 In this company, I started my new career path as a programmer. I
@@ -630,7 +632,7 @@ export default function WorkingExperience() {
             <p className="text-sm italic shrink">Jan 2012 - Apr 2013</p>
           </div>
           <div className="flex items-center space-x-4">
-            <Image className="w-[100px]" src="./company-logo/sim.jpeg" alt="sim-logo" />
+            <img className="w-[100px]" src="/company-logo/sim.jpeg" alt="sim-logo" />
             <div className="space-y-2">
               <p>
                 In this company, I began to work as CNC Machine Operator. My
@@ -659,76 +661,25 @@ export default function WorkingExperience() {
                 Customer Coordinator
               </h3>
             </div>
-            <p className="text-sm italic shrink">??? - Dec 2011</p>
+            <p className="text-sm italic shrink">Dec 2010 - Dec 2011</p>
           </div>
           <div className="flex items-center space-x-4">
-            <Image
+            <img
               className="w-[100px]"
-              src="./company-logo/samui-aksorn.jpeg"
+              src="/company-logo/samui-aksorn.jpeg"
               alt="samui-aksorn-logo"
             />
             <div className="space-y-2">
-              <p>TODO: write about this JD</p>
-            </div>
-          </div>
-        </section>
-        <section className="p-2 pb-6">
-          <div className="p-2 mb-2 bg-slate-500 border-l-[10px] border-[#19527C] flex items-baseline justify-between">
-            <div className="flex items-center space-x-2">
-              <h2 className="text-2xl">SJ Supply</h2>
-              <h3 className="p-[3px] rounded bg-white text-black">
-                Mold Fitter
-              </h3>
-            </div>
-            <p className="text-sm italic shrink">??? - ???</p>
-          </div>
-          <div className="flex items-center space-x-4">
-            <div className="space-y-2">
-              <p>TODO: write about this JD</p>
-            </div>
-          </div>
-        </section>
-        <section className="p-2 pb-6">
-          <div className="p-2 mb-2 bg-slate-500 border-l-[10px] border-[#19527C] flex items-baseline justify-between">
-            <div className="flex items-center space-x-2">
-              <h2 className="text-2xl">Creation Bijoux</h2>
-              <h3 className="p-[3px] rounded bg-white text-black">
-                Customer Coordinator
-              </h3>
-            </div>
-            <p className="text-sm italic shrink">??? - ???</p>
-          </div>
-          <div className="flex items-center space-x-4">
-            <Image
-              className="w-[100px]"
-              src="./company-logo/creation-bijoux.jpeg"
-              alt="creation-bijoux-logo"
-            />
-            <div className="space-y-2">
-              <p>TODO: write about this JD</p>
-            </div>
-          </div>
-        </section>
-        <section className="p-2 pb-6">
-          <div className="p-2 mb-2 bg-slate-500 border-l-[10px] border-[#19527C] flex items-baseline justify-between">
-            <div className="flex items-center space-x-2">
-              <h2 className="text-2xl">Grand Watergate Hotel</h2>
-              <h3 className="p-[3px] rounded bg-white text-black">
-                Front Reception
-              </h3>
-            </div>
-            <p className="text-sm italic shrink">??? - ???</p>
-          </div>
-          <div className="flex items-center space-x-4">
-            <Image
-              className="w-[100px]"
-              src="./company-logo/grand-watergate-hotel.jpeg"
-              alt="grand-watergate-hotel-logo"
-            />
-            <div className="space-y-2">
               <p>
-                This is the first place that I am working as a full-time
-                employee.
+                I worked as a Customer Coordinator in this printing factory. My
+                jobs started with communicating with customers. I then collected
+                their requirements. After that, I transferred the requirements
+                to the designer to make the printing layout. I also passed the
+                jobs around the factory to make sure the jobs were done on time.
+                For the last step, I delivered the jobs to the customers or
+                inform the customers to pick up the jobs. In this place, I
+                learned a lot about the printing process, management, customer
+                service and cooperation with colleges and relationships.
               </p>
             </div>
           </div>
