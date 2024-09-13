@@ -1,3 +1,7 @@
 export default function Showcase() {
-  return <></>;
+  return <>
+    - Number Pad Game
+    - CNC GCode
+    - Notebook of Coursera, Car Engineering
+  </>;
 }

@@ -12,13 +12,13 @@ export function Menu() {
           <a href="/skill">Skill</a>
         </li>
         <li>
-          <a href="/showcase">Showcases</a>
+          <a href="/showcase">Showcase</a>
         </li>
         <li>
-          <a href="/interesting-activity">Interesting Activities</a>
+          <a href="/interesting-activity">Interesting Activity</a>
         </li>
         <li>
-          <a href="/certificate">Interesting Activities</a>
+          <a href="/certificate">Certification</a>
         </li>
       </ul>
     </nav>
