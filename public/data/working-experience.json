@@ -1,0 +1,213 @@
+[
+  {
+    "company": "Opendream",
+    "position": "Developer",
+    "start": "2022-06",
+    "end": "Present",
+    "description": "I started to work here as a backend developer. I then gradually worked in fullstack development.",
+    "projects": [
+      {
+        "projectName": "E-GAT LandAIMS",
+        "imageUrl": "/company-logo/egat.png",
+        "description": "System to manage compensation between EGAT and land owners from cadastral survey to payment phase. Responsible for backend development, API, database design, performance tuning and issue fixing.",
+        "technologies": [
+          {"technologyName":"Django","iconClass":"simple-icons:django"},
+          {"technologyName":"Oracle Database","iconClass":"simple-icons:oracle"},
+          {"technologyName":"Next.js","iconClass":"akar-icons:nextjs-fill"},
+          {"technologyName":"Bash","iconClass":"simple-icons:gnubash"},
+          {"technologyName":"Docker","iconClass":"simple-icons:docker"}
+        ]
+      },
+      {
+        "projectName": "Taejai.com",
+        "imageUrl": "/company-logo/taejai.svg",
+        "description": "Public donation platform. Backend development (Donation API), performance tuning and reporting service (Excel exporting) using DDD architecture.",
+        "technologies": [
+          {"technologyName":"Golang","iconClass":"fa6-brands:golang"},
+          {"technologyName":"Django","iconClass":"simple-icons:django"},
+          {"technologyName":"pandas","iconClass":"simple-icons:pandas"},
+          {"technologyName":"PostgreSQL","iconClass":"simple-icons:postgresql"},
+          {"technologyName":"Next.js","iconClass":"akar-icons:nextjs-fill"},
+          {"technologyName":"Bash","iconClass":"simple-icons:gnubash"},
+          {"technologyName":"Docker","iconClass":"simple-icons:docker"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "GBDi",
+    "position": "Data Engineer",
+    "start": "2020-03",
+    "end": "2022-06",
+    "description": "In GBDi, I am still playing a role of Fullstack Developer plus Data Engineer. I have a chance to co-operate with many skillful colleges who emerge me to learn more new things. The things, for example, I learnt are Python, React, Java, Docker, PowerShell, Shell Script, Cloud Service, BitBucket and Cryptography technique. I also wrote some articles in bdi.or.th.",
+    "projects": [
+      {
+        "projectName": "Healthlink",
+        "imageUrl": "/company-logo/healthlink.png",
+        "description": "System managing personal health data sharing between hospitals and patients. Fullstack development including FastAPI backend, React frontend and database tuning.",
+        "technologies": [
+          {"technologyName":"FastAPI","iconClass":"simple-icons:fastapi"},
+          {"technologyName":"React","iconClass":"simple-icons:react"},
+          {"technologyName":"PostgreSQL","iconClass":"simple-icons:postgresql"},
+          {"technologyName":"Spring Boot","iconClass":"simple-icons:springboot"},
+          {"technologyName":"HAPI FHIR","iconClass":"healthicons:fhir-logo"},
+          {"technologyName":"Bash","iconClass":"simple-icons:gnubash"},
+          {"technologyName":"Jenkins","iconClass":"simple-icons:jenkins"},
+          {"technologyName":"Portainer","iconClass":"simple-icons:portainer"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "I AM Consulting Group",
+    "position": "IT Consultant (Developer)",
+    "start": "2016-10",
+    "end": "2020-02",
+    "description": "I worked in I AM Consulting Group as a developer.",
+    "projects": [
+      {
+        "projectName": "PG (Bangkok Airways), AD/ID Project",
+        "imageUrl": "/company-logo/pg.svg",
+        "description": "Worked with Cordys system and wrote JavaScript to manipulate UI.",
+        "technologies": [
+          {"technologyName":"JavaScript","iconClass":"simple-icons:javascript"},
+          {"technologyName":"Microsoft SQL Server","iconClass":"simple-icons:microsoftsqlserver"},
+          {"technologyName":"Opentext Cordys","iconClass":"simple-icons:opentext"}
+        ]
+      },
+      {
+        "projectName": "SCG (Siam Cement Group), V Project",
+        "imageUrl": "/company-logo/scg.png",
+        "description": "Implemented Smart Contract module using ANTLR grammar and generated AngularJS components, workflow construction and business validation.",
+        "technologies": [
+          {"technologyName":"AngularJS","iconClass":"akar-icons:angular-fill"},
+          {"technologyName":".NET Framework","iconClass":"simple-icons:dotnet"},
+          {"technologyName":"Microsoft SQL Server","iconClass":"simple-icons:microsoftsqlserver"},
+          {"technologyName":"Opentext Cordys","iconClass":"simple-icons:opentext"}
+        ]
+      },
+      {
+        "projectName": "Thailand Post, Asset Management Project",
+        "imageUrl": "/company-logo/thailand-post.png",
+        "description": "Asset document workflow system using Angular frontend and ASP.NET MVC backend with Oracle database.",
+        "technologies": [
+          {"technologyName":"Angular","iconClass":"akar-icons:angular-fill"},
+          {"technologyName":".NET Framework","iconClass":"simple-icons:dotnet"},
+          {"technologyName":"Oracle Database","iconClass":"simple-icons:oracle"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Advanced Systems Consulting",
+    "position": "Programmer (Contract)",
+    "start": "2016-03",
+    "end": "2016-09",
+    "description": "Outsourcing Programmer at DTAC site Here I worked as a hiring-contract employee. My responsibilities included RBHDashboard and Cluster KPI Dashboard (partial) which is the web to monitor KPI.",
+    "projects": [
+      {
+        "projectName": "RBHDashboard",
+        "imageUrl": "/company-logo/dtac.svg",
+        "description": "KPI monitoring dashboard using ASP.NET MVC5, REST/SOAP services, Google Maps and HighCharts.",
+        "technologies": [
+          {"technologyName":".NET Framework ASP.NET (MVC5)","iconClass":"simple-icons:dotnet"},
+          {"technologyName":"Microsoft SQL Server","iconClass":"simple-icons:microsoftsqlserver"},
+          {"technologyName":"AngularJS","iconClass":"akar-icons:angular-fill"},
+          {"technologyName":"Google Map API","iconClass":"simple-icons:googlemaps"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Infinite Computing Systems",
+    "position": "Programmer (Contract)",
+    "start": "2015-10",
+    "end": "2016-03",
+    "description": "The client of this job was Chevron (Thailand). This project REFLEX (Reliability & Efficiency Loss Event Tracking System) is about the system to track the Loss at onshore. I temporarily worked with Indian PM and remotely Indian Developers.",
+    "projects": [
+      {
+        "projectName": "REFLEX",
+        "imageUrl": "/company-logo/chevron.svg",
+        "description": "Reliability & Efficiency Loss Event Tracking System for Chevron. Maintained legacy ASP.NET MVC system and SQL Server stored procedures.",
+        "technologies": [
+          {"technologyName":".NET Framework","iconClass":"simple-icons:dotnet"},
+          {"technologyName":"Microsoft SQL Server","iconClass":"simple-icons:microsoftsqlserver"},
+          {"technologyName":"Microsoft TFS","iconClass":"simple-icons:visualstudio"},
+          {"technologyName":"Telerik Kendo UI","iconClass":"simple-icons:progress"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "RingZero Networks",
+    "position": "Developer",
+    "start": "2015-04",
+    "end": "2015-10",
+    "description": "For this job, I was outsourced to be Developer at Phillip Securities (Thailand). In this company, I worked in SBP (Share Builder Plan) project.",
+    "projects": [
+      {
+        "projectName": "Share Builder Plan (SBP)",
+        "imageUrl": "/company-logo/phillip.jpeg",
+        "description": "For this job, I was outsourced to be Developer at Phillip Securities (Thailand). In this company, I worked in SBP (Share Builder Plan) project. My Responsibilities are mainly Continue development in AccountInvestment module, Change Prededuct module, convert existing overall classic ASP.NET Website Project to Web Application Project and using ASP.Net (Web Application) C# as a core technology. I used several related technologies, for example, RDLC Report, NPOI (to output Excel files) , Entity Framework 6 mixing with existing in-house libraries, Microsoft SQL Server 2005 (Business Layer Logic mainly reside in Stored Procedures and Triggers), jQuery / jQueryUI and HTML5",
+        "technologies": [
+          {"technologyName":".NET Framework","iconClass":"simple-icons:dotnet"},
+          {"technologyName":"Microsoft SQL Server","iconClass":"simple-icons:microsoftsqlserver"},
+          {"technologyName":"jQuery","iconClass":"simple-icons:jquery"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Nagase (Thailand)",
+    "position": "IT Developer",
+    "start": "2013-12",
+    "end": "2015-04",
+    "description": "I worked as a permanent employee in this company. There are several projects that I did. Shortly said: Internal Web Application. In this place, I learned many things by myself and some courses. I began to accumulate the knowledge about programming when I worked here such as the technologies of ASP.Net (MVC5) C# and related things.",
+    "projects": [
+      {
+        "projectName": "Internal Web Applications",
+        "imageUrl": "/company-logo/nagase.jpeg",
+        "description": "Developed internal ASP.NET MVC5 business applications.",
+        "technologies": [
+          {"technologyName":".NET Framework","iconClass":"simple-icons:dotnet"},
+          {"technologyName":"Microsoft SQL Server","iconClass":"simple-icons:microsoftsqlserver"},
+          {"technologyName":"Subversion","iconClass":"simple-icons:subversion"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "AppliCAD",
+    "position": "SolidWorks EPDM API / SolidWorks API Programmer",
+    "start": "2013-05",
+    "end": "2013-11",
+    "description": "In this company, I started my new career path as a programmer. I learned about the fundamental of SolidWork (CAD) software, C# language and SolidWork API. I compose many macros by using C# and SolidWork API together. These things are like the plugins of SolidWork.",
+    "projects": [
+      {
+        "projectName": "SolidWorks Macros & Plugins",
+        "imageUrl": "/company-logo/applicad.jpeg",
+        "description": "Developed various macros and plugins for SolidWorks using C# and SolidWorks API.",
+        "technologies": [
+          {"technologyName":"SolidWork","iconClass":"simple-icons:dassaultsystemes"},
+          {"technologyName":".NET Framework","iconClass":"simple-icons:dotnet"}
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Siam Inter Mold",
+    "position": "Milling CNC Machine Operator",
+    "imageUrl": "/company-logo/sim.jpeg",
+    "start": "2012-01",
+    "end": "2013-04",
+    "description": "In this company, I began to work as CNC Machine Operator. My duties including, Setting up the workpiece into the machine. Loading the tools into the CNC machine. Running the CNC G-Code program. Maintaining the machine daily. For a while, I was promoted to be the CAD designer. Started to use VISI software to make the coolant holes, hot runner and chill vents corresponding with 2D drawing. I also learned a lot about diecasting mold here."
+  },
+  {
+    "company": "Samui Aksorn",
+    "position": "Customer Coordinator",
+    "imageUrl": "/company-logo/samui-aksorn.jpeg",
+    "start": "2010-12",
+    "end": "2011-12",
+    "description": "I worked as a Customer Coordinator in this printing factory. My jobs started with communicating with customers. I then collected their requirements. After that, I transferred the requirements to the designer to make the printing layout. I also passed the jobs around the factory to make sure the jobs were done on time. For the last step, I delivered the jobs to the customers or inform the customers to pick up the jobs. In this place, I learned a lot about the printing process, management, customer service and cooperation with colleges and relationships."
+  }
+]
