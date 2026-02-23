@@ -34,13 +34,16 @@ export default function WorkingCard(props: WorkCardProps) {
                 <div className="flex items-center space-x-4">
                     {
                         props.imageUrl &&
-                        <Image
-                            className="w-[100px]"
-                            src={props.imageUrl}
-                            alt={`${props.company} logo`}
-                        />
+                        <div className="flex-none w-[100px] h-[100px] relative">
+                            <Image
+                                src={props.imageUrl}
+                                alt={`${props.company} logo`}
+                                fill={true}
+                                objectFit="contain"
+                            />
+                        </div>
                     }
-                    <div>
+                    <div className="flex-auto">
                         <p>{props.description}</p>
                         {
                             props.projects && <div>
@@ -67,14 +70,17 @@ export default function WorkingCard(props: WorkCardProps) {
                             <div className="flex items-center space-x-4">
                                 {
                                     project.imageUrl &&
-                                    <Image
-                                        className="w-[100px]"
-                                        src={project.imageUrl}
-                                        alt={`${project.projectName} logo`}
-                                    />
+                                    <div className="flex-none w-[100px] h-[100px] relative">
+                                        <Image
+                                            src={project.imageUrl}
+                                            alt={`${project.projectName} logo`}
+                                            fill={true}
+                                            objectFit="contain"
+                                        />
+                                    </div>
                                 }
 
-                                <div className="space-y-2">
+                                <div className="flex-auto space-y-2">
                                     <p>{project.description}</p>
                                     <div>
                                         <h4>Related Technologies</h4>

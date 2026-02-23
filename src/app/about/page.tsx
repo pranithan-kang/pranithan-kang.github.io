@@ -1,12 +1,14 @@
+'use client';
 import Image from "next/image";
 
 export default function AboutMe() {
   return (
     <>
       <div className="flex space-x-4 mt-2 mb-2">
-        <Image className="w-[200px] h-[200px]" src="/about-img/me.jpg" alt="About Me" />
-
-        <section className="space-y-4">
+        <div className="flex-none w-[200px] relative">
+          <Image src="/about-img/me.jpg" alt="About Me" fill={true} objectFit="contain" />
+        </div>
+        <section className="flex-auto space-y-4">
           <h2>
             <span className="icon-[akar-icons--arrow-left]"></span> It&apos;s Me
           </h2>
@@ -23,11 +25,10 @@ export default function AboutMe() {
             <span className="text-2xl">I</span> was born in 1986, Bangkok. My
             name is &quot;Pranithan Thamcharoenporn&quot;, written in Thai &quot;ประณิธาน ธรรมเจริญพร&quot; In short, you can
             also call me my nickname &quot;Kang&quot;, pronounced [k&#593;&#331;] or &quot;กัง&quot; in Thai. This nickname is Chinese language.
-            
-            
-            
-            
-            
+          </p>
+          <p>
+            <span className="text-2xl">I</span> have been working as a software
+            engineer for more than 10 years.
           </p>
         </section>
       </div>
