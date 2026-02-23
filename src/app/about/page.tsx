@@ -1,12 +1,14 @@
+import Image from "next/image";
+
 export default function AboutMe() {
   return (
     <>
       <div className="flex space-x-4 mt-2 mb-2">
-        <img className="w-[200px] h-[200px]" src="/about-img/me.jpg" />
+        <Image className="w-[200px] h-[200px]" src="/about-img/me.jpg" alt="About Me" />
 
         <section className="space-y-4">
           <h2>
-            <span className="icon-[akar-icons--arrow-left]"></span> It's Me
+            <span className="icon-[akar-icons--arrow-left]"></span> It&apos;s Me
           </h2>
           <p>
             <span className="text-2xl">W</span>elcome everyone to my profile

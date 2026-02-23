@@ -1,5 +1,6 @@
 'use client';
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 
 export interface WorkCardProps {
     company: string;
@@ -33,7 +34,7 @@ export default function WorkingCard(props: WorkCardProps) {
                 <div className="flex items-center space-x-4">
                     {
                         props.imageUrl &&
-                        <img
+                        <Image
                             className="w-[100px]"
                             src={props.imageUrl}
                             alt={`${props.company} logo`}
@@ -66,7 +67,7 @@ export default function WorkingCard(props: WorkCardProps) {
                             <div className="flex items-center space-x-4">
                                 {
                                     project.imageUrl &&
-                                    <img
+                                    <Image
                                         className="w-[100px]"
                                         src={project.imageUrl}
                                         alt={`${project.projectName} logo`}
