@@ -2,13 +2,13 @@ export function Menu() {
   return (
     <nav className="p-2 border-b-[1px] border-[#19527C]">
       <ul className="flex space-x-4">
-        <li>
+        {/* <li>
           <a href="/about">About Me</a>
-        </li>
+        </li> */}
         <li>
           <a href="/work-experience">Working Experience</a>
         </li>
-        <li>
+        {/* <li>
           <a href="/skill">Skill</a>
         </li>
         <li>
@@ -19,7 +19,7 @@ export function Menu() {
         </li>
         <li>
           <a href="/certificate">Certification</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
